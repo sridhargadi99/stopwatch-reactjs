@@ -1,0 +1,126 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding: 30px;
+  }
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 400px;
+  }
+}
+.watch-heading-style {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .watch-heading-style {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+.watch-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.timer-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-style {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .timer-style {
+    height: 32px;
+    width: 32px;
+  }
+}
+.timer-paragraph-style {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .timer-paragraph-style {
+    font-size: 22px;
+  }
+}
+.timer-heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .timer-heading-style {
+    font-size: 45px;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.button-style {
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button-style {
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+  }
+}
+.button-style1 {
+  background-color: #1db05f;
+}
+.button-style2 {
+  background-color: #ef0d36;
+}
+.button-style3 {
+  background-color: #eaa800;
+  margin-right: 0px;
+}
